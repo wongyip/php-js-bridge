@@ -1,0 +1,19 @@
+{
+    "name": "wongyip/php-js-bridge",
+    "description": "Javasciprt objects representation in PHP.",
+    "license": "MIT",
+    "authors": [
+    	{
+            "name": "Wongyip",
+            "email": "wongyip@outlook.com",
+            "homepage": "https://github.com/wongyip",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wongyip\\PhpJavascriptBridge\\": "src"
+        }
+    }
+}
