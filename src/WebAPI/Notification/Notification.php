@@ -23,6 +23,7 @@ class Notification
      */
     public function __construct($title, $options = null)
     {
+        $this->title = $title;
         $this->options = new NotificationOptions($options);
     }
     
